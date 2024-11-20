@@ -15,7 +15,6 @@ const dataCardHeight = document.querySelectorAll("[data-cardHeight]");
     dataCardHeight[index].style.transition = "height 1s";
     dataCardHeight[index].style.height = `${dataJson[index].amount * 3}px`;
     const currentHeight = parseInt(dataCardHeight[index].style.height);
-    console.log(currentHeight);
 
     if (currentHeight > maxHeight) {
       maxHeight = currentHeight;
