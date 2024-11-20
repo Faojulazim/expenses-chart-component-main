@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body
+    class="font-DMSans bg-cream flex items-center justify-center min-h-[100dvh]"
+  >
+    <div class="max-w-[450px] text-[16px] w-full flex flex-col gap-y-5 px-5">
+      <div
+        class="flex items-center justify-between bg-softRed text-veryPaleOrange py-4 px-5 rounded-lg"
+      >
+        <div>
+          <p class="">My balance</p>
+          <h1 class="text-[1.6rem] tracking-wide mt-1 font-[700]">$921.48</h1>
+        </div>
+        <div>
+          <img src="images/logo.svg" alt="" />
+        </div>
+      </div>
+      <div class="bg-veryPaleOrange rounded-lg">
+        <div class="px-5 text-darkBrown py-5">
+          <div>
+            <h1 class="font-[700] text-[1.6rem]">Spending - Last 7 days</h1>
+          </div>
+          <div class="text-mediumBrown pt-8 pb-5 border-b-2 border-cream">
+            <div class="flex items-end justify-between h-[200px]">
+              <div class="flex flex-col items-center relative" data-cards="">
+                <div
+                  class="bg-darkBrown absolute text-veryPaleOrange px-1 py-[2px] text-[11px] top-[-24px] rounded-[0.2rem] text-center opacity-0 ftf:text-[14px] ftf:top-[-32px] ftf:px-[8px] ftf:py-[5px] duration-[200ms]"
+                  data-hovertext=""
+                ></div>
+                <div class="flex items-center flex-col mt-[5px]">
+                  <div
+                    class="transition-all w-[28px] tsf:w-[35px] ftf:w-[40px] bg-softRed rounded-[0.2rem] h-0"
+                    data-cardHeight=""
+                  ></div>
+                  <p class="mt-3">mon</p>
+                </div>
+              </div>
+              <div class="flex flex-col items-center relative" data-cards="">
+                <div
+                  class="bg-darkBrown absolute text-veryPaleOrange px-1 py-[2px] text-[11px] top-[-24px] rounded-[0.2rem] text-center opacity-0 transition-all duration-[200ms] ftf:text-[14px] ftf:top-[-32px] ftf:px-[6px] ftf:py-[5px]"
+                  data-hovertext=""
+                ></div>
+                <div class="flex items-center flex-col mt-[5px]">
+                  <div
+                    class="transition-all w-[28px] tsf:w-[35px] ftf:w-[40px] bg-softRed rounded-[0.2rem] h-0"
+                    data-cardHeight=""
+                  ></div>
+                  <p class="mt-3">tue</p>
+                </div>
+              </div>
+              <div class="flex flex-col items-center relative" data-cards="">
+                <div
+                  class="bg-darkBrown absolute text-veryPaleOrange px-1 py-[2px] text-[11px] top-[-24px] rounded-[0.2rem] text-center opacity-0 ftf:text-[14px] ftf:top-[-32px] ftf:px-[6px] ftf:py-[5px] duration-[200ms]"
+                  data-hovertext=""
+                ></div>
+                <div class="flex items-center flex-col mt-[5px]">
+                  <div
+                    class="htransition-all w-[28px] tsf:w-[35px] ftf:w-[40px] bg-softRed rounded-[0.2rem] h-0"
+                    data-cardHeight=""
+                  ></div>
+                  <p class="mt-3">wed</p>
+                </div>
+              </div>
+              <div class="flex flex-col items-center relative" data-cards="">
+                <div
+                  class="bg-darkBrown absolute text-veryPaleOrange px-1 py-[2px] text-[11px] top-[-24px] rounded-[0.2rem] text-center opacity-0 ftf:text-[14px] ftf:top-[-32px] ftf:px-[6px] ftf:py-[5px] duration-[200ms]"
+                  data-hovertext=""
+                ></div>
+                <div class="flex items-center flex-col mt-[5px]">
+                  <div
+                    class="transition-all w-[28px] tsf:w-[35px] ftf:w-[40px] bg-softRed rounded-[0.2rem] h-0"
+                    data-cardHeight=""
+                  ></div>
+                  <p class="mt-3">thu</p>
+                </div>
+              </div>
+              <div class="flex flex-col items-center relative" data-cards="">
+                <div
+                  class="bg-darkBrown absolute text-veryPaleOrange px-1 py-[2px] text-[11px] top-[-24px] rounded-[0.2rem] text-center opacity-0 ftf:text-[14px] ftf:top-[-32px] ftf:px-[6px] ftf:py-[5px] duration-[200ms]"
+                  data-hovertext=""
+                ></div>
+                <div class="flex items-center flex-col mt-[5px]">
+                  <div
+                    class="transition-all w-[28px] tsf:w-[35px] ftf:w-[40px] bg-softRed rounded-[0.2rem] h-0"
+                    data-cardHeight=""
+                  ></div>
+                  <p class="mt-3">fri</p>
+                </div>
+              </div>
+              <div class="flex flex-col items-center relative" data-cards="">
+                <div
+                  class="bg-darkBrown absolute text-veryPaleOrange px-1 py-[2px] text-[11px] top-[-24px] rounded-[0.2rem] text-center opacity-0 ftf:text-[14px] ftf:top-[-32px] ftf:px-[6px] ftf:py-[5px] duration-[200ms]"
+                  data-hovertext=""
+                ></div>
+                <div class="flex items-center flex-col mt-[5px]">
+                  <div
+                    class="transition-all w-[28px] tsf:w-[35px] ftf:w-[40px] bg-softRed rounded-[0.2rem] h-0"
+                    data-cardHeight=""
+                  ></div>
+                  <p class="mt-3">sat</p>
+                </div>
+              </div>
+              <div class="flex flex-col items-center relative" data-cards="">
+                <div
+                  class="bg-darkBrown absolute text-veryPaleOrange px-1 py-[2px] text-[11px] top-[-24px] rounded-[0.2rem] text-center opacity-0 ftf:text-[14px] ftf:top-[-32px] ftf:px-[6px] ftf:py-[5px] duration-[200ms]"
+                  data-hovertext=""
+                ></div>
+                <div class="flex items-center flex-col mt-[5px]">
+                  <div
+                    class="transition-all w-[28px] tsf:w-[35px] ftf:w-[40px] bg-softRed rounded-[0.2rem] h-0"
+                    data-cardHeight=""
+                  ></div>
+                  <p class="mt-3">sun</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="pt-5">
+              <div class="text-mediumBrown">
+                <p class="">Total this month</p>
+
+                <div class="flex justify-between items-end mt-2">
+                  <h1
+                    class="text-darkBrown text-[2.2rem] leading-none font-[700]"
+                  >
+                    $478.33
+                  </h1>
+                  <div class="flex flex-col justify-end items-end">
+                    <h1 class="text-darkBrown font-[700] leading-none">
+                      +2.4%
+                    </h1>
+                    <p class="leading-none mt-1">from last month</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
